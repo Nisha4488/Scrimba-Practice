@@ -1,14 +1,17 @@
 import React from 'react'
-import ToDoItem from './ToDoItem'
+import Joke from './Joke'
+
 
 function App(){
-  return(
-    <div className="todo-list">
-      <ToDoItem/>
-      <ToDoItem/>
-      <ToDoItem/>
-    </div>
-  )
+    return(
+        <div>
+            <Joke question="First" punchline="Hello"/>
+            <Joke question="Second" punchline="Hi"/>
+            <Joke  punchline="Hey"/>
+            <Joke  punchline="Hola"/>
+            <Joke question="Fifth" punchline="Good"/>
+        </div>
+    )
 }
 
 
