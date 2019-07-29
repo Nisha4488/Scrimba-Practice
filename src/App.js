@@ -5,7 +5,7 @@ import Joke from './Joke'
 function App(){
     return(
         <div>
-            <Joke question="First" punchline="Hello"/>
+            <Joke punchline="Hello"/>
             <Joke question="Second" punchline="Hi"/>
             <Joke  punchline="Hey"/>
             <Joke  punchline="Hola"/>
