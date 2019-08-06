@@ -11,6 +11,7 @@ function App(){
 
     // console.log(doubleNum)
     const jokeComponent = jokeData.map(joke=><Joke key={joke.id} question={joke.question} answer={joke.answer}/>)
+    // const jokeComponent = jokeData.filter(joke=> <Joke key ={joke.id} question={joke.question} answer={joke.answer} />)
     return(
         <div>
             {jokeComponent}
